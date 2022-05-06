@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+/*----------Header----------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Container_Header{
+    max-width: 100%;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.Container_Text{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Container_Text h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 33;
+}
+
+/*----------Error404----------*/
+
+.Conteiner_All{
+    position: relative;
+    right: 0;
+    transition: all 300ms;
+    margin-top: -60px;
+}
+
+.COVER{
+    width: 100%;
+    padding-bottom: 20px;
+    font-family: 'Space Mono', monospace;
+}
+
+.Container_COVER{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    position: relative;
+    padding: 40px;
+}
+
+.COVER .Container_TXT{
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Space Mono', monospace;
+}
+
+.Container_TXT h2{
+    max-width: 700px;
+    font-size: 60px;
+    color: #008db9;
+}
+
+.Container_TXT p{
+    margin-top: 10px;
+    color: #373737;
+    font-weight: 900;
+}
+
+.Container_TXT input[type="button"]{
+    padding: 10px 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color: #373737;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px #20202049;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+}
+
+.COVER input[type="button"]:hover{
+    box-shadow: 1px 1px 30px -5px #20202085;
+}
+
+/*----------Responsive----------*/
+
+@media screen and (max-width: 800px) {
+    .Container_COVER {
+      display: inline;
+    }
+  
+    .Container_IMG {
+      margin-top: 0px;
+      padding: 30px;
+    }
+  
+    .Container_IMG img {
+      display: block;
+      margin: 0px auto;
+      width: 350px;
+    }
+  
+    .Container_TXT {
+      margin-top: -90px;
+      display: block;
+      margin: 0px auto;
+      padding: 30px;
+    }
+  }
+
+/*----------Footers----------*/
+
+footer {
+    width: 100%;
+    padding: 20px 0px;
+    font-family: 'Nunito', sans-serif;
+    *background-color: var(--color-esqueleto);
+    background-image: url("../Images/footerv.png");
+    background-size: cover;
+    margin-top: -20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 0px;
+    color: #373737;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: white;
+}
